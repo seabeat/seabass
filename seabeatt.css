@@ -1,0 +1,215 @@
+/* style.css */
+body {
+    background-image: url(images/bg-pattern-top-desktop.svg);
+    max-width: 1440px; 
+    margin: 0 auto;
+    padding:  20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PENCIL {
+    width: 250px;
+    color: hsl(300, 43%, 22%);
+    transform: translate(100px);
+}
+.TEXTBOOK {
+    color: hsl(300, 43%, 22%);
+    width: 400px;
+    transform: translate(100px);
+    /* row: gap 3rem;  */
+    /* text-size-adjust: 5px; */
+    text-decoration-style: solid;
+}
+ul {
+   list-style: none; 
+
+}
+.school {
+    list-style: none;
+    display: grid;
+    row-gap: 1rem;
+    /* position: absolute; */
+    /* right: 0; */
+}
+.school li {
+    margin-left: auto;
+    border: 0px solid;
+    height: 35px;
+    /* width: 100px; */
+    border-radius: 5px;
+    /* padding-left:50 px; */
+    padding-top: 10px;
+    padding-bottom: -5px;
+    float: right;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    text-align: end;
+    padding-right: 80px;
+    font-weight: bold;
+
+    /* color: hsl(303, 80%, 67%); */
+    /* padding-right: 10px; */
+    /* transform: translate(30px, 50px); */
+    width: 300px;
+    /* margin: 10px; */
+    transform: translateY(-200px)
+    
+    
+}
+.guru {
+    margin-right: 100px;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    padding-left: 60px;
+    
+}
+.review {
+    margin-right: 180px; 
+    /* margin-top: 50px; */
+    /* text-align: left; */
+    /* text-align: center; */
+    padding-left: 30px;
+
+}
+.besttech {
+    /* margin-bottom: -px; */
+    margin-top: -50px;
+    margin-right: 60px;
+    padding-left: 40px;
+/* }
+/* .star1 {
+    transform: translate(550px);
+    /* padding-top: 20px; */
+    /* padding: bottom 40px; ; */
+    /* margin-left: auto; */ */ */
+    
+
+    
+}
+.phone {
+    list-style: none;
+    display: grid;
+    row-gap: 2rem;
+
+}
+.phone li {
+    
+    margin-left: auto;
+    /* border: 0px solid; */
+    height: 25px;
+    /* width: 50px; */
+    border-radius: 5px;
+    padding-left: 50px;
+    /* padding-top: 1px; */
+    /* padding-bottom: -5px; */
+    float: right;
+    color: hsl(300, 43%, 22%);
+    /* background-color: hsl(300, 24%, 96%); */
+    /* text-align: c; */
+    /* padding-right: px; */
+    width: 350px;
+    /* margin: 10px; */
+    transform: translateY(-375px)
+}
+
+.star1 {
+    margin-right: 220px; 
+    /* margin-top: 50px; */
+    /* text-align: left; */
+    /* text-align: center; */
+    transform: translateY(-100px);
+}
+.speaker {
+    margin-right: 170px; 
+    /* margin-top: 50px; */
+    /* text-align: left; */
+    /* text-align: center; */
+    transform: translateY(-100px);
+}
+.charger {
+    margin-right: 110px; 
+    /* margin-top: 50px; */
+    /* text-align: left; */
+    /* text-align: center; */
+    transform: translateY(-100px);
+}
+
+
+
+
+.gold {
+    list-style: none;
+    color:  hsl(0, 0%, 100%);
+    transform: translate(50px);
+    font-size: 95%;
+    font-weight: 500;
+    
+}
+.gold li {
+    display: inline;
+    border: 1px solid black;
+    float: left;
+    width: 300px;
+    height: 150px;
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    margin: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+.smith {
+    transform: translateY(-310px);
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+}
+.smithpix {
+    height: 40px;
+    transform: translateY(40px);
+    border-radius: 50px;
+}
+.smithname {
+    transform: translate(30px);
+}
+.smithverified {
+    transform: translate(28px);
+    color: hsl(333, 80%, 67%);
+}
+
+.good {
+    transform: translateY(-290px);
+    height: 170px;
+    background-color: hsl(300, 43%, 22%);
+}
+.jude {
+    transform: translate(30px);
+}
+.verified {
+    transform: translate(28px);
+    color: hsl(333, 80%, 67%);
+}
+.fresh {
+    height: 40px;
+    transform: translateY(40px);
+    border-radius: 50px;
+}
+.better {
+    transform: translateY(-300px);
+    height: 170px;
+    background-color: hsl(300, 43%, 22%);
+}
+.box3 {
+    transform: translate(30px);
+}
+.box2 {
+    transform: translate(28px);
+    color: hsl(333, 80%, 67%);
+}
+.clean {
+    height: 40px;
+    transform: translateY(40px);
+    border-radius: 50px;
+}
+    
